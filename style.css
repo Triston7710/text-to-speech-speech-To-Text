@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+
+body{
+    background:#eeccc0;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+
+}
+.Text-To-Speech{
+    margin-top: 15rem;
+    position:fixed;
+    top:1.5%;
+    bottom:10.5%;
+    right: 35%; 
+    z-index:1000;
+    width:50rem;
+    height: 50rem;
+   background:#F0E8E4;
+   padding: 5rem;
+   border-radius: 5rem;
+   display:-ms-flexbox;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack:center;
+   -ms-flex-pack: center;
+   justify-content:center;
+
+}
+
+.Text-To-Speech h3{
+    font-size: 2.6rem;
+    padding-bottom:1rem 3rem;
+    color: #5e473e;
+    margin-bottom:5rem;
+    text-shadow: #b58d7e;
+   
+}
+#textbox{
+        width:50%;
+       text-transform: none;
+       font-size: 1.3rem;
+       color:#5e473e ;
+       padding: 2rem 1.2rem;
+       border: 0.1rem solid #caab9f;
+       margin-bottom:2rem;
+       border-radius: .75rem ;
+       background: transparent;
+       
+}
+
+.btn {
+    display: inline-block;
+    margin-top:2rem;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    background: linear-gradient(135deg, #b58d7e, #845f51);
+    color: #faf7f6;
+    cursor: pointer;
+    border-radius: 1rem;
+
+    
+}
+
+.btn:hover {
+   letter-spacing: 2px;
+    background: linear-gradient(135deg, #945f51, #b58d7e)
+}
