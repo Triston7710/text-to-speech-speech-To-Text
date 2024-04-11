@@ -17,6 +17,6 @@ document.getElementById("stop-btn")
 .onclick = () => recognition.stop();
 
 recognition.onresult = event => {
-textbox.value = event.results[event.results.length - 1][0].transcript;
+output.value = event.results[event.results.length - 1][0].transcript;
 }
 navigator.mediaDevices.getUserMedia({ audio: true });
