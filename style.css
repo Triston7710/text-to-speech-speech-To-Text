@@ -51,6 +51,31 @@ html {
        background: transparent;
        
 }
+#textbox{
+        width:50%;
+       text-transform: none;
+       font-size: 1.3rem;
+       color:#5e473e ;
+       padding: 2rem 1.2rem;
+       border: 0.1rem solid #caab9f;
+       margin-bottom:2rem;
+       border-radius: .75rem ;
+       background: transparent;
+       
+}
+#output{
+        width:50%;
+       text-transform: none;
+       font-size: 1.3rem;
+       color:#5e473e ;
+       padding: 2rem 1.2rem;
+       border: 0.1rem solid #caab9f;
+       margin-bottom:2rem;
+       border-radius: .75rem ;
+       background: transparent;
+       
+}
+
 
 .btn {
     display: inline-block;
