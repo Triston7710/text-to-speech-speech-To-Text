@@ -71,9 +71,7 @@ html {
     background: linear-gradient(135deg, #945f51, #b58d7e)
 }
   @media screen and (max-width: 1200px) {
-    #desktop-nav {
+    body {
       display: none;
     }
-    #hamburger-nav {
-      display: flex;
-    }
+    
